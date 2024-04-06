@@ -7,7 +7,7 @@ const Navbar = () => {
             main
         </div>
         <div>
-            trending
+        <a href="" target="_blank">trending</a>
         </div>
         <div>
             help
