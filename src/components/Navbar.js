@@ -7,7 +7,8 @@ const Navbar = () => {
             main
         </div>
         <div>
-        <a href="" target="_blank">trending</a>
+        <a href="src/components/trending.js" target="_blank">
+          trending</a>
         </div>
         <div>
             help
