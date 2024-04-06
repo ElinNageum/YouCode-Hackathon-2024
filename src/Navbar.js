@@ -1,16 +1,17 @@
 import React from 'react'
 
+
 const Navbar = () => {
   return (
     <div className = 'Navbar'>
         <div>
-            main
+            MAIN
         </div>
         <div>
-            trending
+            TRENDING
         </div>
         <div>
-            help
+            HELP
         </div>
     </div>
   )

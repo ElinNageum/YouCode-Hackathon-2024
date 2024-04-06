@@ -1,12 +1,45 @@
 .App {
-  background-color: #282c34;
+  background-image: url(background.png);
+  position: absolute;
   height: 100vh;
+  width: 100vw;
+  background-size: 100vw;
+
 }
 
 .Navbar {
-  height: 15vh;
-  background-color: #fdfdfd;
   display: flex;
   justify-content: space-evenly;
+  color: #ffffff;
   align-items: center;
+  padding-left: 70vw;
+
+}
+
+.Skis {
+  height: 10vh;
+  width: 10vh;
+}
+
+.Topbar {
+  display: flex;
+  
+}
+
+.Logo {
+  color: #ffffff;
+  align-items: center;
+  display:flex;
+  font-size: 25px;
+}
+
+.Filter {
+  color: #ffffff;
+  align-items: center;
+  display:flex;
+  justify-content:left;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-top: 200px;
+  
 }
