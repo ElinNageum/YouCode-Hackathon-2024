@@ -1,7 +1,9 @@
+
 import Navbar from "./Navbar";
 import Filter from "./Filter";
 import './App.css'
 import image from './images/Mountains.png'
+
 
 
 function App() {
