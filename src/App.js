@@ -19,7 +19,6 @@ function App() {
       </text>
     </div>
     <Navbar/>
-        
     <h1 className='Header'>
       <text>
           Welcome to

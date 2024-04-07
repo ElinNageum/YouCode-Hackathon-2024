@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from './Navbar'
+
 
 const Trending = () => {
 
@@ -55,9 +57,10 @@ const Trending = () => {
     
 
   return (
-    <div className='Trending'>
+    <div>
       {/* {content}
       {fakecontent} */}
+      <Navbar/>
       TRENDING
     </div>
   )

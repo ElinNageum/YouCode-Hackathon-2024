@@ -5,6 +5,7 @@ import App from './App';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Trending from './components/Trending';
 import Help from './components/Help';
+import Navbar from './components/Navbar';
 //import reportWebVitals from './reportWebVitals';
 
 export default function MyApp() {

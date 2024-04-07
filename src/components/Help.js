@@ -1,10 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 function Help() {
     return (
-      <div className="Help">
-        Help
-      </div>
+      <Navbar/>
+        
+      
     )
   }
   
