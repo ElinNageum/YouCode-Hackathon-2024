@@ -6,7 +6,7 @@ import Trending from "./components/Trending";
 import Help from "./components/Help";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const name = 'Fittouch';
+const name = 'FinTouch';
 
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
     <Navbar/>
     <h1 className='Header'>
       <text>
-          Welcome to
+          Explore
       </text>
-      <text> 
+      <text className="Name"> 
         {name}
       </text>
     </h1>

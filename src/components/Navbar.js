@@ -7,13 +7,16 @@ const Navbar = () => {
     <div className="Navbar">
     <nav>
         <div >
-            <Link to="/">main</Link>
+            <Link style={{color: "white"}} to="/">MAIN</Link>
         </div>  
         <div>
-            <Link to="/trending">trending</Link>
+            <Link style={{color: "white"}} to="/trending">TRRENDING</Link>
         </div>
         <div>
-        <Link to="/help">help</Link>
+            <Link style={{color: "white"}} to="/trending">WISHLIST</Link>
+        </div>
+        <div>
+        <Link style={{color: "white"}} to="/help">HELP</Link>
         </div>
     </nav>
   </div>
