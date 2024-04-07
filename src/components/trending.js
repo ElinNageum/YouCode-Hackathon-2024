@@ -1,13 +1,13 @@
-import React from 'react'
+import './trending.css'
 
-const trending = () => {
+
+function Trending() {
   return (
-    <div className = 'trending'>
-        <div>
-            trending
-        </div>
+    <div className="trending">
+      TRENDING
     </div>
   )
 }
 
-export default trending
+export default Trending
+
