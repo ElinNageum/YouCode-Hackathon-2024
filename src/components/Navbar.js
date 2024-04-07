@@ -1,19 +1,22 @@
 import React from 'react'
-
+import {Routes, Route, Link, NavLink} from "react-router-dom";
+import Trending from './Trending';
 
 const Navbar = () => {
   return (
-    <div className = 'Navbar'>
+    <div className="Navbar">
+    <nav>
+        <div >
+            <Link to="/">main</Link>
+        </div>  
         <div>
-            MAIN
+            <Link to="/trending">trending</Link>
         </div>
         <div>
-            TRENDING
+        <Link to="/help">help</Link>
         </div>
-        <div>
-            HELP
-        </div>
-    </div>
+    </nav>
+  </div>
   )
 }
 
