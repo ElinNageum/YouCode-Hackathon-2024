@@ -1,23 +1,33 @@
-import Navbar from "./Navbar";
-import Filter from "./Filter";
+import Navbar from "./components/Navbar";
+import Filter from "./components/Filter";
 import './App.css'
-import image from './images/Mountains.png'
+import logo from './images/Mountains.png'
+import Trending from "./components/Trending";
 
+const name = 'Fittouch';
 
 function App() {
   return (
-    
-    <div className= "App">
+    // <Trending/>
+  <div className= "App">
       
-        <div className='Logo'>
-          <img className='Skis' src={image} alt="logo" width/>
-          <text>
-            Fittouch
-          </text>
+    <div className='Logo'>
+      <img className='Skis' src={logo} alt="logo" width/>
+      <text>
+          {name}
+      </text>
     </div>
     <Navbar/>
+    <h1 className='Header'>
+      <text>
+          Welcome to
+      </text>
+      <text>
+        {name}
+      </text>
+    </h1>
     <Filter/>
-    </div>
+</div>
   );  
 }
 

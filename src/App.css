@@ -1,10 +1,13 @@
+
 .App {
-  background-image: url(background.png);
+  background-image: url(./images/background_new.png);
+  background-color: black;
   position: absolute;
-  height: 100vh;
+  height: 300vh;
   width: 100vw;
   background-size: 100vw;
-
+  background-repeat:no-repeat;
+  min-width: 100vw;
 }
 
 .Navbar {
@@ -13,7 +16,6 @@
   color: #ffffff;
   align-items: center;
   padding-left: 70vw;
-
 }
 
 .Skis {
@@ -21,16 +23,25 @@
   width: 10vh;
 }
 
-.Topbar {
+.Header {
   display: flex;
-  
+  flex-direction: column;
+  color:#ffffff;
+  padding-left: 200px;
+  padding-top: 70px;
+  font-size: 75px;
+}
+
+.Topbar {
+  padding-left: 10px;
+  display: flex;
 }
 
 .Logo {
   color: #ffffff;
   align-items: center;
   display:flex;
-  font-size: 25px;
+  padding-left: 40px;
 }
 
 .Filter {
@@ -40,6 +51,5 @@
   justify-content:left;
   font-size: 25px;
   padding-left: 200px;
-  padding-top: 200px;
-  
+  padding-top: 25px;
 }
