@@ -1,6 +1,5 @@
 import React from 'react'
-import {Routes, Route, Link, NavLink} from "react-router-dom";
-import Trending from './Trending';
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,7 +12,10 @@ const Navbar = () => {
             <Link to="/trending">trending</Link>
         </div>
         <div>
-        <Link to="/help">help</Link>
+            <Link to="/cart">cart</Link>
+        </div>
+        <div>
+          <Link to="/help">help</Link>
         </div>
     </nav>
   </div>

@@ -1,6 +1,6 @@
 import React from 'react'
-import {useState} from 'react'
-import {useEffect} from 'react'
+import { useState, useEffect, useContext } from 'react';
+import { CartContext } from './CartContext';
 
 
 const Filter = () => {
@@ -15,6 +15,8 @@ const Filter = () => {
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const [, setCart] = useContext(CartContext);
 
   useEffect(() => {
     let componentMounted = true;
@@ -73,7 +75,7 @@ const Filter = () => {
   
     setFilter(filtered);
   }; 
-
+  
   // change choices back to false
   const handleMenChange = () => {
     setMenChecked(!menChecked);
@@ -93,6 +95,19 @@ const Filter = () => {
 
   const handleElectronicsChange = () => {
     setElectronicsChecked(!electronicsChecked);
+  };
+
+  const addToCart = (product) => {
+    setCart(prevCart => {
+      const existingProduct = prevCart.find(item => item.id === product.id);
+      if (existingProduct) {
+        return prevCart.map(item => 
+          item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
+        );
+      } else {
+        return [...prevCart, { ...product, quantity: 1 }];
+      }
+    });
   };
 
   return (
@@ -157,12 +172,13 @@ const Filter = () => {
               />
               <h3>{product.title}</h3>
               <p>${product.price}</p>
+              <button onClick={() => addToCart(product)}>Add to Cart</button>
             </div>
           ))}
         </div>
       )}
 
-      {loading && <div>Loading...</div>}
+      {loading && <div>hi</div>}
     </div>
   );
 };
