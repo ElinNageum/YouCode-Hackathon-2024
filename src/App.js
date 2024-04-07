@@ -4,7 +4,7 @@ import './App.css'
 import image from './images/Mountains.png'
 import logo from './images/Mountains.png'
 import Trending from "./components/Trending"; 
-
+  
 
 const name = 'Fittouch';
 
@@ -22,7 +22,7 @@ function App() {
     <Navbar/>
     <h1 className='Header'>
       <text>
-          Welcome to
+          Welcome to 
       </text>
       <text>
         {name}
