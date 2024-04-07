@@ -94,3 +94,18 @@
   padding-left: 200px;
   padding-top: 25px;
 }
+
+button {
+  padding-top: 5px;
+  background: linear-gradient(to right, #e86239, #e83381, #af38c8);
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  border-radius: 8px;
+  color: white; 
+ 
+}
+
+.button:hover {
+  background: linear-gradient(to right, #e86239, #e83381, #af38c8);
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0; 
+  border: 2px solid #ffa;
+}

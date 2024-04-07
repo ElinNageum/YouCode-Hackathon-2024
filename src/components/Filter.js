@@ -239,7 +239,9 @@ const Filter = () => {
             <input className="form-check-input" type="checkbox" checked={electronicsChecked} onChange={() => setElectronicsChecked(!electronicsChecked)} id="electronicsCheck"/>
             <label className="form-check-label" htmlFor="electronicsCheck" style={{ color: 'white' }}>Electronics</label>
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          {/* <button type="submit" className="btn btn-primary">Submit</button> */}
+          <button type="submit" className="button">Submit</button>
+
         </form>
       ) : (
         <div className="row">
