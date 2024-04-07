@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Trending from './components/Trending';
+import Cart from './components/Cart';
 import Help from './components/Help';
 import Navbar from './components/Navbar';
 //import reportWebVitals from './reportWebVitals';
@@ -15,6 +16,7 @@ export default function MyApp() {
     <Routes>
             <Route path="/app" element={<App />}/>
             <Route path="/trending" element={<Trending />}/>
+            <Route path="/cart" element={<Cart />}/>
             <Route path="/help" element={<Help />}/>
             <Route path="/" element={<App />}/>
         </Routes>
