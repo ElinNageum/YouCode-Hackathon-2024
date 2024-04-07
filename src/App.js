@@ -1,10 +1,8 @@
-import Navbar from "./Navbar";
-import Filter from "./Filter";
+import Navbar from "./components/Navbar";
+import Filter from "./components/Filter";
 import './App.css'
-import image from './images/Mountains.png'
 import logo from './images/Mountains.png'
-import Trending from "./components/Trending"; 
-
+import Trending from "./components/Trending";
 
 const name = 'Fittouch';
 
