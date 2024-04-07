@@ -23,6 +23,20 @@
   width: 10vh;
 }
 
+.Product {
+
+  border: solid;
+  border-radius: 10px;
+}
+
+.Trending {
+  list-style: none;
+  background-color: #353333;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
 .Header {
   display: flex;
   flex-direction: column;
