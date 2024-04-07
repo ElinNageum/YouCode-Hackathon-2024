@@ -3,7 +3,7 @@ import Filter from "./Filter";
 import './App.css'
 import image from './images/Mountains.png'
 import logo from './images/Mountains.png'
-import Trending from "./components/Trending";
+import Trending from "./components/Trending"; 
 
 
 const name = 'Fittouch';
