@@ -10,7 +10,7 @@ const Navbar = () => {
             <Link style={{color: "white"}} to="/">MAIN</Link>
         </div>  
         <div>
-            <Link style={{color: "white"}} to="/trending">TRRENDING</Link>
+            <Link style={{color: "white"}} to="/trending">TRENDING</Link>
         </div>
         <div>
             <Link style={{color: "white"}} to="/trending">WISHLIST</Link>
