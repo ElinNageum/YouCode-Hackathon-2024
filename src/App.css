@@ -23,17 +23,44 @@
   width: 10vh;
 }
 
-.Product {
 
+.Product {
+  background-color: #1a1919;
   border: solid;
   border-radius: 10px;
+  border-color: #1a1919;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .Trending {
+  color: white;
   list-style: none;
   background-color: #353333;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
+  height: 200vh
+}
+
+.Help {
+  color: white;
+}
+
+.TrendingSmall {
+  background-color: #1a1919;
+  border: solid;
+  border-radius: 10px;
+  border-color: #1a1919;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 20vw;
+  display: flex;
   flex-direction: column;
 }
 

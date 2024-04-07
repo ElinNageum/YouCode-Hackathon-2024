@@ -3,14 +3,15 @@ import Filter from "./components/Filter";
 import './App.css'
 import logo from './images/Mountains.png'
 import Trending from "./components/Trending";
+import Help from "./components/Help";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const name = 'Fittouch';
 
 function App() {
   return (
-    // <Trending/>
+  // <Trending/>
   <div className= "App">
-      
     <div className='Logo'>
       <img className='Skis' src={logo} alt="logo" width/>
       <text>
@@ -22,13 +23,13 @@ function App() {
       <text>
           Welcome to
       </text>
-      <text>
+      <text> 
         {name}
       </text>
     </h1>
     <Filter/>
 </div>
-  );  
+);
 }
 
 export default App;
