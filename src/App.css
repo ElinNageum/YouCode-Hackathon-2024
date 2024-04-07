@@ -3,7 +3,7 @@
   background-image: url(./images/background_new.png);
   background-color: black;
   position: absolute;
-  height: 300vh;
+  height: 700vh;
   width: 100vw;
   background-size: 100vw;
   background-repeat:no-repeat;
@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-evenly;
   color: #ffffff;
+  background-color: black;
   align-items: center;
   padding-left: 70vw;
 }
@@ -93,4 +94,35 @@
   font-size: 25px;
   padding-left: 200px;
   padding-top: 25px;
+}
+
+button {
+  padding-top: 5px;
+  background: linear-gradient(to right, #e86239, #e83381, #af38c8);
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+  border-radius: 8px;
+  color: white; 
+ 
+}
+
+.button:hover {
+  background: linear-gradient(to right, #e86239, #e83381, #af38c8);
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0; 
+  border: 2px solid #ffa;
+}
+
+.Name {
+  text-shadow: 0 0 10px #e86239, 0 0 20px #c3c3c3, 0 0 1.5px #5d5d5d;
+}
+
+.help-content {
+  background-image: url(./images/background_new.png);
+    /* background-color: black; */
+  position: absolute;
+  height: 300vh;
+  width: 100vw;
+  background-size: 100vw;
+  background-repeat:no-repeat;
+  min-width: 100vw;
+  color: white;
 }
